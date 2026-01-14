@@ -1,4 +1,4 @@
-# Inventaire Acoss 2026 📱
+# Application d'inventaire Acoss 2026 📱
 
 Application Android native dédiée à la réalisation d'inventaires physiques pour l'Acoss. Conçue pour être performante, 100% hors-ligne et optimisée pour une utilisation intensive sur le terrain (Samsung Galaxy A54).
 
