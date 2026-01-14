@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Inventaire Acoss 2026</string>
+    <string name="title_home">Accueil</string>
+    <string name="title_session_config">Configuration du Site</string>
+    <string name="title_scan">Scan</string>
+    <string name="title_item_list">Liste des éléments</string>
+    <string name="title_export">Exportation</string>
+    <string name="title_settings">Paramètres</string>
+    <string name="title_stats">Statistiques</string>
+
+    <string name="btn_new_inventory">Nouvel inventaire</string>
+    <string name="btn_resume_inventory">Reprendre inventaire</string>
+    <string name="btn_history">Historique</string>
+    <string name="btn_start_scan">Démarrer le scan</string>
+    <string name="btn_validate">Valider</string>
+</resources>
