@@ -32,7 +32,7 @@ Scan des éléments
 Cet écran constitue le cœur de l’application :
 - scan d’éléments via l’appareil photo
 - affichage du dernier scan effectué
-- association à un étage et un bureau
+- association à un étage et un bureau.
 
 Liste des éléments  
 Cette étape permet :
