@@ -1,89 +1,69 @@
-Application pour Inventaire
-====================
+# Inventaire Acoss 2026 📱
 
-Application Android dédiée à la réalisation d’inventaires physiques de manière simple, structurée et efficace.
-
-Ce projet a été conçu dans un objectif d’apprentissage du développement Android, tout en respectant une logique métier réaliste.
+Application Android native dédiée à la réalisation d'inventaires physiques pour l'Acoss. Conçue pour être performante, 100% hors-ligne et optimisée pour une utilisation intensive sur le terrain (Samsung Galaxy A54).
 
 ---
 
-Présentation générale
----------------------
+## 📸 Aperçu de l'application
 
-L’application permet de :
-- créer un nouvel inventaire
-- reprendre un inventaire existant
-- scanner des éléments physiques
-- associer chaque élément à un emplacement précis
-- exporter les données sous différents formats
+| Accueil | Configuration | Scan |
+| :---: | :---: | :---: |
+| ![Accueil](screenshots/accueil.png) | ![Configuration](screenshots/configuration_site.png) | ![Scan](screenshots/scan.png) |
 
----
-
-Fonctionnalités
----------------
-
-Accueil  
-L’écran d’accueil permet d’accéder aux principales actions de l’application :
-- création d’un nouvel inventaire
-- reprise d’un inventaire
-- consultation de l’historique
-
-Scan des éléments  
-Cet écran constitue le cœur de l’application :
-- scan d’éléments via l’appareil photo
-- affichage du dernier scan effectué
-- association à un étage et un bureau.
-
-Liste des éléments  
-Cette étape permet :
-- de visualiser l’ensemble des éléments scannés
-- de vérifier les données
-- de valider la liste avant export
-
-Exportation  
-Les données peuvent être exportées sous plusieurs formats :
-- fichier texte (.TXT)
-- fichier tableur (.CSV)
-- rapport PDF (.PDF)
-
-Deux méthodes d’envoi sont proposées :
-- envoi par email
-- enregistrement sur l’appareil
-
-Paramètres  
-L’utilisateur peut personnaliser le comportement de l’application :
-- activation ou désactivation du son
-- activation ou désactivation de la vibration
-- gestion du flash automatique
-
-Configuration du site  
-Cette section permet :
-- de sélectionner le site d’inventaire
-- d’adapter le contexte des scans
+| Liste | Export | Paramètres |
+| :---: | :---: | :---: |
+| ![Liste](screenshots/liste.png) | ![Export](screenshots/export.png) | ![Paramètres](screenshots/parametres.png) |
 
 ---
 
-Technologies utilisées
-----------------------
+## 🚀 Fonctionnalités principales
 
-- Android Studio
-- Kotlin
-- Material Design
-- Architecture simple orientée écrans
+### 1. Accueil & Configuration
+- **Identité Urssaf** : Interface aux couleurs institutionnelles.
+- **Gestion de Session** : Sélection rapide du site (ex: Acoss - Marseille).
+- **Accès Rapide** : Reprise d'inventaire ou consultation de l'historique.
+
+### 2. Scanner Haute Performance
+- **Technologie** : Propulsé par Google ML Kit et CameraX.
+- **Multi-formats** : Supporte QR Code, Code 128, Code 39, EAN-13, DataMatrix.
+- **Feedback Terrain** : Vibration et bip sonore configurables à chaque scan.
+- **Gestion des Zones** : Changement d'étage et de bureau en un clic.
+- **Anti-doublon** : Alerte visuelle immédiate (Orange) si un code est scanné deux fois.
+
+### 3. Gestion & Exportation
+- **Liste de contrôle** : Visualisation en temps réel des objets scannés.
+- **Export Multi-format** :
+  - **.CSV** : Optimisé pour Excel France (séparateur `;`).
+  - **.TXT** : Format tabulé pour intégration système.
+  - **.PDF** : Rapport d'inventaire formel.
+- **Modes de transfert** : Envoi direct par Email (Outlook/Gmail) ou sauvegarde locale via SAF (choix du dossier).
 
 ---
 
-Objectifs du projet
--------------------
+## 🛠 Stack Technique
 
-Ce projet a pour objectifs :
-- d’apprendre les bases du développement Android
-- de concevoir une application fonctionnelle et cohérente
-- de mettre en pratique des notions de structuration et d’ergonomie
+- **Langage** : Kotlin
+- **UI** : XML + ViewBinding (Material Design 3)
+- **Architecture** : MVVM + Repository Pattern
+- **Persistence** : Room Database
+- **Scanner** : CameraX + ML Kit Barcode Scanning
+- **Asynchronisme** : Kotlin Coroutines
+- **Navigation** : Jetpack Navigation Component
 
 ---
 
-Statut du projet
-----------------
+## 📖 Installation
 
-Projet en cours d’évolution.
+1. Cloner le dépôt.
+2. Ouvrir le projet avec **Android Studio**.
+3. Effectuer un **Gradle Sync**.
+4. S'assurer que le logo `app/src/main/res/drawable/logo_urssaf.png` est présent.
+5. Compiler et déployer sur un appareil (Min SDK 26).
+
+---
+
+## 🔒 Confidentialité & Sécurité
+L'application fonctionne à **100% hors-ligne**. Aucune donnée n'est envoyée vers un serveur tiers. Les exports sont gérés localement par l'utilisateur.
+
+---
+*Projet développé pour l'Acoss - 2026*
