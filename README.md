@@ -4,19 +4,7 @@ Application Android native dédiée à la réalisation d'inventaires physiques p
 
 ---
 
-## 📸 Aperçu de l'application
-
-| Accueil | Configuration | Scan |
-| :---: | :---: | :---: |
-| ![Accueil](screenshots/accueil.png) | ![Configuration](screenshots/configuration_site.png) | ![Scan](screenshots/scan.png) |
-
-| Liste | Export | Paramètres |
-| :---: | :---: | :---: |
-| ![Liste](screenshots/liste.png) | ![Export](screenshots/export.png) | ![Paramètres](screenshots/parametres.png) |
-
----
-
-## 🚀 Fonctionnalités principales
+## Fonctionnalités principales
 
 ### 1. Accueil & Configuration
 - **Identité Urssaf** : Interface aux couleurs institutionnelles.
@@ -40,7 +28,7 @@ Application Android native dédiée à la réalisation d'inventaires physiques p
 
 ---
 
-## 🛠 Stack Technique
+## Stack Technique
 
 - **Langage** : Kotlin
 - **UI** : XML + ViewBinding (Material Design 3)
@@ -52,7 +40,7 @@ Application Android native dédiée à la réalisation d'inventaires physiques p
 
 ---
 
-## 📖 Installation
+## Installation
 
 1. Cloner le dépôt.
 2. Ouvrir le projet avec **Android Studio**.
@@ -62,8 +50,20 @@ Application Android native dédiée à la réalisation d'inventaires physiques p
 
 ---
 
-## 🔒 Confidentialité & Sécurité
+## Confidentialité & Sécurité
 L'application fonctionne à **100% hors-ligne**. Aucune donnée n'est envoyée vers un serveur tiers. Les exports sont gérés localement par l'utilisateur.
+
+---
+
+## Aperçu de l'application
+
+| Accueil | Configuration | Scan |
+| :---: | :---: | :---: |
+| ![Accueil](screenshots/accueil.png) | ![Configuration](screenshots/configuration_site.png) | ![Scan](screenshots/scan.png) |
+
+| Liste | Export | Paramètres |
+| :---: | :---: | :---: |
+| ![Liste](screenshots/liste.png) | ![Export](screenshots/export.png) | ![Paramètres](screenshots/parametres.png) |
 
 ---
 *Projet développé pour l'Acoss - 2026*
